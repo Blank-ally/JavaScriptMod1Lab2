@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The styling i couldn't get to work </title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!--I also could get the table to be right-->
+
+<main>
+
+    <div class="container">
+        <h1>Basic calculator</h1>
+
+        <label for="input1">Input 1:</label>
+        <input id="input1" type="text">
+
+
+        <label for="input2">Input 2:</label>
+        <input id="input2" type="text">
+
+        <input class="btn" type="button" value="calculate" onclick="calculator()">
+
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>Results</th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th><label for="resultSum">Sum =</label></th>
+                <th><label for="resultDifference"> Difference =</label></th>
+                <th><label for="resultProduct">Product =</label></th>
+                <th><label for="resultQuotient">Quotient =</label></th>
+                <th><label for="resultRemainder">Remainder = </label></th>
+                <th><label for="resultClicks">Clicks: </label></th>
+            </tr>
+
+            <tr>
+                <th><input id="resultSum" type="text" readonly placeholder="input 1 + input 2"></th>
+                <th><input id="resultDifference" type="text" readonly placeholder="input 1 - input 2"></th>
+                <th><input id="resultProduct" type="text" readonly placeholder="input 1 * input 2"></th>
+                <th><input id="resultQuotient" type="text" readonly placeholder="input 1 / input 2"></th>
+                <th><input id="resultRemainder" type="text" readonly placeholder="input 1 % input 2"></th>
+                <th><input id="resultClicks" type="text" readonly value="0"></th>
+            </tr>
+
+
+        </table>
+    </div>
+
+
+</main>
+
+<script src="/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+</body>
+</html>

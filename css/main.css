@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #f1f1f1;;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    papdding: 12px 20px;
+    margin: 8px 0;
+
+
+}
+
+label {
+    color: #f1f1f1;
+}
+
+input[type="button"] {
+    background-color: orange;
+    border: none;
+    margin: 4px 2px;
+    color: #f1f1f1;
+    font-size: 1.2em;
+
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(11, 6, 100);
+    background: linear-gradient(282deg, rgba(11, 6, 100, 1) 0%, rgba(80, 47, 119, 1) 35%, rgba(149, 118, 185, 1) 93%);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+
+    padding: 20px;
+}
+
+body {
+    background-color: #b6b4d1;
+
+}
+
+::placeholder {
+    color: #D3D3D3;
+}
+
+.table {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(11, 6, 100);
+    background: linear-gradient(282deg, rgba(11, 6, 100, 1) 0%, rgba(80, 47, 119, 1) 35%, rgba(149, 118, 185, 1) 93%);
+
+}
+
+
+/*
+
+these notes are failed styling i was hoping i could get pointers
+for future reference
+
+1. the first thing being I couldn't change the background of the
+body from white i left it as is in the turned file but you can see
+that even though i changed the background-color its still white
+
+2. I also could not get only the border bottom Is just end up with a full box
+
+3. putting text in the boxes like the placeholder  that  would stay
+I was think a console.log() statement but that would not display to the user
+
+
+
+
+*/
